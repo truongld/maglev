@@ -55,7 +55,6 @@
   "devDependencies": {
     "chai": "2.x.x",
     "chai-connect-middleware": "0.3.x",
-    "chai-maglev-helpers": "git+ssh://git@github.com:maglev/chai-maglev-helpers.git#0.2.0",
     "codeclimate-test-reporter": "0.0.4",
     "istanbul": "0.3.x",
     "jshint": "2.7.x",
