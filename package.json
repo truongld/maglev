@@ -1,14 +1,20 @@
 {
-  "name": "maglev",
-  "version": "0.6.4",
-  "description": "Fast and frictionless MVC web framework for Node.js.",
+  "name": "yodajs",
+  "version": "0.7.0",
+  "description": "Fast and frictionless MVC web framework for Node.js. Included Passport, Mongoose",
   "keywords": [
     "express",
     "framework",
     "web",
-    "mvc"
+    "mvc",
+    "mongoose",
+    "passport"
   ],
   "contributors": [
+    {
+      "name": "Truong LD",
+      "email": "mr.truongld@gmail.com"
+    },
     {
       "name": "Viadeo Team"
     },
@@ -20,14 +26,14 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git://github.com/viadeo/maglev.git"
+    "url": "git://github.com/truongld/yodajs.git"
   },
   "bugs": {
-    "url": "http://github.com/viadeo/maglev/issues"
+    "url": "http://github.com/truongld/yodajs/issues"
   },
   "license": "MIT",
   "bin": {
-    "maglev": "./bin/maglev.js"
+    "yoda": "./bin/yoda.js"
   },
   "main": "./lib",
   "dependencies": {
@@ -49,7 +55,7 @@
   "devDependencies": {
     "chai": "2.x.x",
     "chai-connect-middleware": "0.3.x",
-    "chai-maglev-helpers": "git+ssh://git@github.com:viadeo/chai-maglev-helpers.git#0.2.0",
+    "chai-maglev-helpers": "git+ssh://git@github.com:maglev/chai-maglev-helpers.git#0.2.0",
     "codeclimate-test-reporter": "0.0.4",
     "istanbul": "0.3.x",
     "jshint": "2.7.x",
