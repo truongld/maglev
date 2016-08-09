@@ -29,7 +29,7 @@ Next, create an application and install dependencies.
 
 Start the server.
 
-    $ yoda server
+    $ yoda server -w -p [PORT] -e [development|production] (-w for watch folder)
 
 The application is available at [localhost:3000](http://localhost:3000).
 

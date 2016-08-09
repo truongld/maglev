@@ -1,6 +1,6 @@
 {
   "name": "yodajs",
-  "version": "0.7.1",
+  "version": "0.7.2",
   "description": "Fast and frictionless MVC web framework for Node.js. Included Passport, Mongoose",
   "keywords": [
     "express",
